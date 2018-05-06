@@ -11,7 +11,7 @@ import javax.persistence.Table;
 @Entity
 @Table(name="employee")
 public class Employee {
-
+//employee
 	@Id
 	@GeneratedValue(strategy = GenerationType.TABLE)
 	@Column(name="id")
